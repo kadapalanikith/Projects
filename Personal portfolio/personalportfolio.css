@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+.navbar-brand-name {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #FFB703;
+    font-size: 23px;
+}
+
+.header_section_navbar {
+    background-color: #f5f5f5;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #4535C1;
+    color: white !important;
+}
+
+.about-section {
+    background-color: #f5f5f5;
+}
+
+.profile_pic_small_to_medium {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.profile_pic_medium_to_large {
+    height: 350px;
+    border-radius: 10px;
+}
+
+.profile_pic_small_to_medium:hover {
+    transform: scale(1.05);
+}
+
+.profile_pic_medium_to_large:hover {
+    transform: scale(1.05);
+}
+
+.about_me_head {
+    font-size: 30px;
+    color: #4535C1;
+    font-family: 'Lobster', cursive;
+}
+
+.about_me_text {
+    font-size: 15px;
+}
+
+.skill_section {
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.skill_section_heading {
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: #4535C1;
+}
+
+.skill {
+    padding: 20px;
+    background-color: #FEFFD2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+
+.skill_img {
+    font-size: 45px;
+    color: #ff6347;
+}
+
+.skill_name {
+    font-size: 22px;
+}
+
+.skill_percentage {
+    font-size: 20px;
+}
+
+.certificate-section {
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.certificate-section-main-heading {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: #4535C1;
+}
+
+.certificate-section-container {
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    background-color: #F7E7DC;
+    color: #180161;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-section-container-img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.certificate-section-certificate-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.certificate-section-certificate-issuer {
+    font-size: 15px;
+}
+
+.certificate-section-certificate-issuer-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.certificate-section-certificate-issuer-logo {
+    width: 30%;
+    height: 30%;
+}
+
+.certificate-section-certificate-date {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.project-section {
+    font-family: Roboto;
+    background-color: #f5f5f5;
+}
+
+.project-section-title {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: #4535C1;
+}
+
+.project-section-project-image-container {
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-section-project-image {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.project-section-project-details {
+    padding: 20px;
+    background-color: #F7E7DC;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #180161;
+}
+
+.project-section-project-title {
+    font-size: 25px;
+}
+
+.project-section-project-description {
+    font-size: 15px;
+}
+
+.contact_section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+}
+
+.contact-section-title {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: #4535C1;
+}
+
+.contact_info {
+    background-color: #F7E7DC;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact_info_icon {
+    font-size: 20px;
+    color: #0073e6;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact_info_text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-section-form {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.input-comment,
+.input-name,
+.input-email {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+}
+
+.section-form-btn {
+    border-radius: 10px;
+}
+
+.section-form-btn:hover {
+    background-color: #0056b3;
+}
+
+.footer_section {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    background-color: #ECFFE6;
+}
+
+.footer_section_follo_us {
+    margin-top: 10px;
+}
+
+.footer_section_follo_us_heading {
+    font-size: 25px;
+    color: #4535C1;
+    font-family: 'Lobster', cursive;
+}
+
+.social_media {
+    margin-top: 10px;
+}
+
+.social_media_icons {
+    font-size: 18px;
+    margin: 5px;
+    padding: 12px;
+    background-color: #DEF9C4;
+    border-radius: 20px;
+}
+
+.copyright_section {
+    margin-top: 10px;
+}
+
+.copyright_section_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.social_media_icons:hover {
+    color: #4B0082;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.copyright_section_text {
+    margin-top: 20px;
+    font-size: 1rem;
+}
